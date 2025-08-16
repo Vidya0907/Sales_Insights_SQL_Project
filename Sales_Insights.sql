@@ -249,11 +249,3 @@ FROM (
     GROUP BY p.category, customer_name
 ) t
 WHERE rn <= 2;
-
-
-
-
-
-
-
-
